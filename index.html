@@ -159,6 +159,7 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
+		  
 
         </ul>
 
@@ -468,14 +469,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Dashboards</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-			<li class="filter-item">
-              <button data-filter-btn>Machine-learning</button>
+              <button data-filter-btn>predictive models</button>
             </li>
           </ul>
 
@@ -491,82 +489,86 @@
 
             </button>
 
-            <ul class="select-list">
+         <ul class="select-list">
 
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
+  <li class="select-item">
+    <button data-select-item>All</button>
+  </li>
 
-              
+  <li class="select-item">
+    <button data-select-item>Dashboards</button>
+  </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
+  <li class="select-item">
+    <button data-select-item>Learning Analytics</button>
+  </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-				<li class="select-item">
-                <button data-select-item>Machine-learning</button>
-              </li>
-            </ul>
+  <li class="select-item">
+    <button data-select-item>Machine Learning</button>
+  </li>
+
+</ul>
+
 
           </div>
 
-          <ul class="project-list">
-			
-			<li class="project-item active" data-filter-item data-category="machine-learning">
-				<a href="https://github.com/Tsheporbt/Fruits-Classification-MobileNetV2" target="_blank">
-					<figure class="project-img">
-						<div class="project-item-icon-box">
-							<ion-icon name="logo-github"></ion-icon>
-						</div>
-						
-						<img src="./assets/images/Fruit.png" alt="Fruits Classification using MobileNetV2" loading="lazy">
-					</figure>
+        <ul class="project-list">
 
-					<h3 class="project-title">Fruits Classification using MobileNetV2</h3>
+  <li class="project-item active" data-filter-item data-category="predictive models">
+    <a href="https://github.com/Tsheporbt/Fruits-Classification-MobileNetV2" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="logo-github"></ion-icon>
+        </div>
+        <img src="./assets/images/Fruit.png" alt="Fruits Classification using MobileNetV2" loading="lazy">
+      </figure>
+      <h3 class="project-title">Fruits Classification using MobileNetV2</h3>
+      <p class="project-category">Predictive Model</p>
+    </a>
+  </li>
 
-					<p class="project-category">Machine Learning</p>
 
-				</a>
-			</li>
-			<li class="project-item active" data-filter-item data-category="machine-learning">
-  <a href="#">
-    <h3 class="project-title">At-Risk Student Prediction Model</h3>
-    <p class="project-category">Learning Analytics</p>
-  </a>
+  <li class="project-item active" data-filter-item data-category="predictive models">
+    <button data-dashboard="Predictive Model">
+      <h3 class="project-title">At-Risk Student Prediction Model</h3>
+      <p class="project-category">Predictive Model</p>
+    </button>
+  </li>
+
+
+  <li class="project-item active" data-filter-item data-category="dashboards">
+  <button data-dashboard="teaching">
+    <figure class="project-img">
+      <img src="./assets/images/teaching.jpg" alt="Teaching Evaluation Analytics" loading="lazy">
+    </figure>
+    <h3 class="project-title">Teaching Evaluation Analytics</h3>
+    <p class="project-category">Dashboard</p>
+  </button>
 </li>
 
-				<li class="project-item active" data-filter-item data-category="applications">
-				  <a href="#">
-					<h3 class="project-title">Student Digital Competency Study</h3>
-					<p class="project-category">Research Project</p>
-				  </a>
-				</li>
+<li class="project-item active" data-filter-item data-category="dashboards">
+  <button data-dashboard="orientation">
+    <figure class="project-img">
+      <img src="./assets/images/orientation_1.jpg" alt="Orientation Attendance Dashboard" loading="lazy">
+    </figure>
+    <h3 class="project-title">Orientation Attendance Dashboard</h3>
+    <p class="project-category">Dashboard</p>
+  </button>
+</li>
 
-				<li class="project-item active" data-filter-item data-category="dashboards">
-				  <button data-dashboard="engagement">
-					<h3 class="project-title">Student Engagement Analytics Dashboard</h3>
-					<p class="project-category">Power BI</p>
-				  </button>
-				</li>
+<li class="project-item active" data-filter-item data-category="dashboards">
+  <button data-dashboard="engagement">
+    <figure class="project-img">
+      <img src="./assets/images/engagement_1.jfif" alt="Student Engagement Analytics Dashboard" loading="lazy">
+    </figure>
+    <h3 class="project-title">Student Engagement Analytics Dashboard</h3>
+    <p class="project-category">Dashboard</p>
+  </button>
+</li>
 
-				<li class="project-item active" data-filter-item data-category="dashboards">
-				  <button data-dashboard="teaching">
-					<h3 class="project-title">Teaching Evaluation Analytics</h3>
-					<p class="project-category">Power BI</p>
-				  </button>
-				</li>
 
-				<li class="project-item active" data-filter-item data-category="dashboards">
-				  <button data-dashboard="orientation">
-					<h3 class="project-title">Orientation Attendance Dashboard</h3>
-					<p class="project-category">Power BI</p>
-				  </button>
-				</li>
+</ul>
 
-          </ul>
 
         </section>
 
@@ -664,13 +666,21 @@ teaching: `
 <p>Analyses student feedback trends.</p>
 
 <h4>Overall Ratings</h4>
-<img src="./assets/images/teaching_1.png" width="100%">
+<img src="./assets/images/teaching_1.jpg" width="100%">
 
 <h4>Dimension Analysis</h4>
-<img src="./assets/images/teaching_2.png" width="100%">
+<img src="./assets/images/teaching_2.jpg" width="100%">
 
 <h4>Comparative View</h4>
-<img src="./assets/images/teaching_3.png" width="100%">
+<img src="./assets/images/teaching_3.jpg" width="100%">
+
+<h4>Comparative View</h4>
+<img src="./assets/images/teaching_4.jpg" width="100%">
+
+<h4>Comparative View</h4>
+<img src="./assets/images/teaching_5.jpg" width="100%">
+
+
 `,
 
 orientation: `
