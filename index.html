@@ -1,742 +1,261 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-ZA">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tshepo Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Tshepo Rabotapi works across higher education, instructional design, learning analytics and data science.">
+  <meta property="og:title" content="Tshepo Rabotapi — Education, Technology, Data">
+  <meta property="og:description" content="A professional portfolio of research, instructional design and applied analytics.">
+  <meta property="og:type" content="website">
+  <title>Tshepo Rabotapi — Education, Technology, Data</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/new.jpg" alt="Tshepo Rabotapi" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Tshepo Rabotapi</h1>
-
-          <p class="title">Reseacher</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:tmrabotapi@gmail.com" class="contact-link">tmrabotapi@gmail.com</a>
-            </div>
-
-          </li>
-
-          </li>
-
-          <li class="contact-item">
-
-        
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Mafikeng, North West, RSA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-
-          <li class="social-item">
-            <a href="https://x.com/tmrabotapi" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-        
-			<a href="https://www.linkedin.com/in/tmrabotapi" class="social-link" target="_blank">
-
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-		  
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        
-		  
-		  <section class="about-text">
-  <p>
-    I am an Educational Technologist and Learning Analytics researcher working at the intersection of pedagogy, student success, and data-informed decision making in higher education.
-  </p>
-
-  <p>
-    My work focuses on leveraging learning analytics, digital competency research, and student engagement data to design evidence-based interventions that improve student outcomes and institutional effectiveness.
-  </p>
-
-  <p>
-    I apply Python, R, and data visualisation tools such as Power BI and Looker Studio to analyse learning environments and support predictive and prescriptive student success strategies.
-  </p>
-</section>
-
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Digital Competencies Research</h4>
-
-                <p class="service-item-text">
-                  I investigate Digital competencies of students and create interventions for them.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data analytics</h4>
-
-                <p class="service-item-text">
-                  using Python, R-Language PowerBi and other tools
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of South Africa</h4>
-
-              <span>Masters in Open Distance Learning 2024</span>
-
-              <p class="timeline-text">
-                <br>Theory and research in ODL <br>Curriculum Development in ODL <br>Management of ODL<br>Technology in ODL
-				<br>Masters Topic : Education lecturers’ perception of their own digital competencies: A case of a rural Higher Education institution.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University Of Cape Town</h4>
-
-              <span>Post Graduate Diploma In Educational Technology 2020</span>
-
-              <p class="timeline-text">
-                <br>Emerging Technologies in education <br>Online Learning Design <br>Research and Evaluation of emerging Technologies <br>Learning and teaching with emerging technologies
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Varsity College</h4>
-
-              <span>Postgraduate Diploma in Data Analytics Current</span>
-
-              <p class="timeline-text">
-                <br>Statistical and Mathematical Analysis
-				<br>Data Analytics 
-				<br>Data Science
-				<br>Programming for Data Analytics
-				<br>Research Project : Developing a Prescriptive Analytics Model for Identifying and Supporting At-Risk Students Using LMS Engagement Data
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Educational Technologist</h4>
-
-              <span>Walter Sisulu University : 2019 — Present</span>
-
-              <p class="timeline-text">
-               <br>Developed and delivered eLearning interventions to students during COVID-19 lockdowns. <br> Coached and mentored student cohorts as eLearning assistants <br>Designed a self-paced learning course for students to improve their digital competencies. <br>Supporting students and academics on eLearning-related issues. <br>Administered courses and users on MOODLE.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Acting Instructional Designer</h4>
-
-              <span>Walter Sisulu University September 2022 to March 2024</span>
-
-              <p class="timeline-text">
-                <br>Assisted, supported, and trained academics on the Moodle LMS, enhancing their proficiency and effectiveness in delivering online courses. <br>Collaborated with fellow instructional designers on technical aspects of Moodle, ensuring seamless integration and functionality.<br>Contributed to developing the student tracking system, improving monitoring and support for student progress.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">relief Lecturer</h4>
-
-              <span>Walter Sisulu University : July 2023 to December 2023</span>
-
-              <p class="timeline-text">
-                <br>Taught Business Information Systems to first and second-year students, achieving a pass rate of 77% for Year 1 and 86% for Year 2. <br>Instructed end-user computing for first-year students, achieving a pass rate of 78%.
-              </p>
-
-            </li>
-
-			<li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Educator</h4>
-
-              <span>Kelebogile Primary School : October 2014- August 2019</span>
-
-              <p class="timeline-text">
-                <br>Developed interventions and concessions for learners with learning barriers, enhancing their educational experience and outcomes.<br>Created and issued educational content, including notes, tests, and assignments, to facilitate comprehensive learning.
-				<br>Supervised classes to ensure a safe and productive learning environment for all learners.
-              </p>
-
-            </li>		
-          </ol>
-
-        </section>
-
-        <section class="skill">
-		
-
-  <h3 class="h3 skills-title">Technical Stack</h3>
-
-		  <ul class="skills-list content-card">
-
-			<li class="skills-item"><h5 class="h5">Python (Pandas, NumPy, Scikit-learn)</h5></li>
-			<li class="skills-item"><h5 class="h5">R (Statistical Modelling)</h5></li>
-			<li class="skills-item"><h5 class="h5">Power BI</h5></li>
-			<li class="skills-item"><h5 class="h5">Google Looker Studio</h5></li>
-			<li class="skills-item"><h5 class="h5">SQL</h5></li>
-			<li class="skills-item"><h5 class="h5">Machine Learning Pipelines</h5></li>
-
-		  </ul>
-
-  <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item"><h5 class="h5">Teaching & Student Support</h5></li>
-            <li class="skills-item"><h5 class="h5"> Digital Literacy Content Development</h5></li>
-            <li class="skills-item"><h5 class="h5">Social Science Research</h5></li>
-            <li class="skills-item"><h5 class="h5">Project & Team Management</h5></li>
-          </ul>
-		  
-
-        </section>
-
-      </article>
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Dashboards</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>predictive models</button>
-            </li>
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-         <ul class="select-list">
-
-  <li class="select-item">
-    <button data-select-item>All</button>
-  </li>
-
-  <li class="select-item">
-    <button data-select-item>Dashboards</button>
-  </li>
-
-  <li class="select-item">
-    <button data-select-item>Learning Analytics</button>
-  </li>
-
-  <li class="select-item">
-    <button data-select-item>Machine Learning</button>
-  </li>
-
-</ul>
-
-
-          </div>
-
-        <ul class="project-list">
-
-  <li class="project-item active" data-filter-item data-category="predictive models">
-    <a href="https://github.com/Tsheporbt/Fruits-Classification-MobileNetV2" target="_blank">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="logo-github"></ion-icon>
-        </div>
-        <img src="./assets/images/Fruit.png" alt="Fruits Classification using MobileNetV2" loading="lazy">
-      </figure>
-      <h3 class="project-title">Fruits Classification using MobileNetV2</h3>
-      <p class="project-category">Predictive Model</p>
-    </a>
-  </li>
-
-
-  <li class="project-item active" data-filter-item data-category="predictive models">
-    <button data-dashboard="Predictive Model">
-      <h3 class="project-title">At-Risk Student Prediction Model</h3>
-      <p class="project-category">Predictive Model</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Tshepo Rabotapi home">TR<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
     </button>
-  </li>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Selected work</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
 
+  <main id="main">
+    <section class="hero section-shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Higher education · South Africa</p>
+        <h1>Tshepo<br><em>Rabotapi.</em></h1>
+        <p class="hero-deck">I work where <strong>education, technology and data</strong> meet — designing better learning experiences and using evidence to understand what works.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span>↘</span></a>
+          <a class="text-link" href="mailto:tmrabotapi@gmail.com">Start a conversation <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Editorial graphic representing the intersection of education, technology and data">
+        <div class="art-topline"><span>PROFILE / 2026</span><span>01—04</span></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="art-cross">+</div>
+        <div class="art-center"><span>EDU</span><b>×</b><span>DATA</span></div>
+        <div class="art-label label-a">Learning<br>design</div>
+        <div class="art-label label-b">Applied<br>research</div>
+        <div class="art-label label-c">Analytics<br>& insight</div>
+        <div class="art-caption">Curiosity, evidence<br>and practical change.</div>
+        <div class="art-bottomline"><span>INSTRUCTIONAL DESIGN</span><span>LEARNING ANALYTICS</span></div>
+      </div>
+      <div class="hero-meta">
+        <span>Instructional Designer · Researcher · Data Analytics Practitioner</span>
+        <a href="#about" aria-label="Scroll to about section">SCROLL TO EXPLORE ↓</a>
+      </div>
+    </section>
 
-  <li class="project-item active" data-filter-item data-category="dashboards">
-  <button data-dashboard="teaching">
-    <figure class="project-img">
-<<<<<<< Updated upstream
-      <img src="./assets/images/orientation_1.jpg" alt="Teaching Evaluation Analytics" loading="lazy">
-=======
-      <img src="./assets/images/Teaching.jpg" alt="Teaching Evaluation Analytics" loading="lazy">
->>>>>>> Stashed changes
-    </figure>
-    <h3 class="project-title">Teaching Evaluation Analytics</h3>
-    <p class="project-category">Dashboard</p>
-  </button>
-</li>
+    <section class="intro-band">
+      <div class="section-shell intro-grid">
+        <p class="eyebrow">01 / The perspective</p>
+        <p class="intro-statement">Good technology does not replace thoughtful teaching. <em>It helps make thoughtful teaching possible at scale.</em></p>
+      </div>
+    </section>
 
-<li class="project-item active" data-filter-item data-category="dashboards">
-  <button data-dashboard="orientation">
-    <figure class="project-img">
-      <img src="./assets/images/orientation_1.jpg" alt="Orientation Attendance Dashboard" loading="lazy">
-    </figure>
-    <h3 class="project-title">Orientation Attendance Dashboard</h3>
-    <p class="project-category">Dashboard</p>
-  </button>
-</li>
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">02 / About</p>
+        <h2>Connecting practice<br>with <em>evidence.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="lead">I am a higher education professional working across instructional design, educational technology, learning analytics and applied data science.</p>
+          <p>My work is grounded in a practical question: how can institutions use technology and evidence to improve the learning experience, support teaching practice and make better decisions?</p>
+          <p>I bring experience from school education and university teaching and support, alongside postgraduate study in educational technology, open distance learning and data analytics. I am particularly interested in the realities of teaching and learning in rural and resource-constrained higher education environments.</p>
+          <a class="text-link" href="https://www.linkedin.com/in/tmrabotapi" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a>
+        </div>
+        <aside class="about-note">
+          <span class="note-index">A working principle</span>
+          <blockquote>Start with the learning problem. Choose the technology second. Evaluate the result.</blockquote>
+          <span class="note-rule"></span>
+          <p>Based in South Africa<br>Working across higher education and digital learning</p>
+        </aside>
+      </div>
+    </section>
 
-<li class="project-item active" data-filter-item data-category="dashboards">
-  <button data-dashboard="engagement">
-    <figure class="project-img">
-      <img src="./assets/images/engagement_1.jfif" alt="Student Engagement Analytics Dashboard" loading="lazy">
-    </figure>
-    <h3 class="project-title">Student Engagement Analytics Dashboard</h3>
-    <p class="project-category">Dashboard</p>
-  </button>
-</li>
+    <section class="work-section" id="work">
+      <div class="section-shell">
+        <div class="section-heading work-heading">
+          <div><p class="eyebrow">03 / Selected work</p><h2>Projects with a<br><em>purpose.</em></h2></div>
+          <p class="heading-aside">A selection of work across analytics, digital learning and machine learning. Some institutional examples are described at a high level to respect data confidentiality.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter projects">
+          <button class="filter-button active" data-filter="all" aria-pressed="true">All work <span>04</span></button>
+          <button class="filter-button" data-filter="analytics" aria-pressed="false">Analytics</button>
+          <button class="filter-button" data-filter="learning" aria-pressed="false">Learning design</button>
+          <button class="filter-button" data-filter="machine-learning" aria-pressed="false">Machine learning</button>
+        </div>
 
-
-</ul>
-
-
-        </section>
-
-      </article>
-
-<article class="dashboards" data-page="dashboards">
-
-<header>
-<h2 class="h2 article-title">Power BI Dashboards</h2>
-</header>
-
-<div id="dashboard-content">
-
-<p>Select a dashboard from the portfolio.</p>
-
-</div>
-
-</article>
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22956638.598474808!2d5.827989637198787!3d-32.69820403997268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e1!3m2!1sen!2sza!4v1766493649494!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+        <div class="project-grid">
+          <article class="project-card project-featured" data-category="analytics">
+            <div class="project-visual visual-dashboard">
+              <div class="visual-top"><span>INSTITUTIONAL INSIGHT</span><span>01 / 04</span></div>
+              <div class="mini-dashboard">
+                <div class="mini-side"><i></i><i></i><i></i><i></i></div>
+                <div class="mini-main">
+                  <div class="mini-title"></div>
+                  <div class="mini-kpis"><i></i><i></i><i></i></div>
+                  <div class="mini-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                  <div class="mini-bottom"><i></i><i></i></div>
+                </div>
+              </div>
+              <span class="visual-caption">POWER BI / DATA STORYTELLING</span>
             </div>
+            <div class="project-info">
+              <p class="project-type">01 — Learning analytics</p>
+              <h3>Teaching evaluation<br>and institutional insight</h3>
+              <p>Using Microsoft 365 workflows and Power BI to support the collection, consolidation and interpretation of student feedback on teaching.</p>
+              <div class="tag-list"><span>Power BI</span><span>Power Automate</span><span>Microsoft Forms</span></div>
+              <details class="project-details">
+                <summary>Read project overview <span>＋</span></summary>
+                <div><p><strong>Focus:</strong> turning fragmented evaluation processes into a more consistent reporting workflow.</p><p><strong>Approach:</strong> automated data movement, structured reporting and descriptive analysis across multiple academic periods.</p><p><strong>Consideration:</strong> institutional and respondent data are not published in this portfolio.</p></div>
+              </details>
+            </div>
+          </article>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <article class="project-card" data-category="analytics">
+            <div class="project-visual visual-engagement">
+              <div class="visual-top"><span>LEARNING BEHAVIOUR</span><span>02 / 04</span></div>
+              <div class="engagement-graphic"><div class="engagement-ring"><b>LEARN</b></div><div class="engagement-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+              <span class="visual-caption">LMS DATA / PATTERN RECOGNITION</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">02 — Learning analytics</p>
+              <h3>Student engagement<br>analytics</h3>
+              <p>Exploring how learning management system activity can be organised into useful indicators of participation and engagement.</p>
+              <div class="tag-list"><span>LMS data</span><span>Power BI</span><span>Visualisation</span></div>
+              <details class="project-details"><summary>Read project overview <span>＋</span></summary><div><p><strong>Focus:</strong> presenting patterns in student engagement in a way that can inform academic support and further investigation.</p><p><strong>Boundary:</strong> engagement indicators are not, on their own, proof of learning or a definitive measure of student risk.</p></div></details>
+            </div>
+          </article>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+          <article class="project-card" data-category="machine-learning">
+            <div class="project-visual visual-ml">
+              <div class="visual-top"><span>COMPUTER VISION</span><span>03 / 04</span></div>
+              <div class="fruit-grid"><i>●</i><i>●</i><i>●</i><i>●</i><i>●</i><i>●</i></div>
+              <div class="ml-label">IMAGE CLASSIFICATION<br><b>MobileNetV2</b></div>
+              <span class="visual-caption">PYTHON / DEEP LEARNING</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">03 — Machine learning</p>
+              <h3>Fruit classification<br>with MobileNetV2</h3>
+              <p>A computer vision project exploring transfer learning for image-based fruit classification.</p>
+              <div class="tag-list"><span>Python</span><span>TensorFlow</span><span>MobileNetV2</span></div>
+              <a class="project-link" href="https://github.com/Tsheporbt/Fruits-Classification-MobileNetV2" target="_blank" rel="noopener">View source repository <span>↗</span></a>
+            </div>
+          </article>
 
-          </form>
+          <article class="project-card" data-category="learning">
+            <div class="project-visual visual-learning">
+              <div class="visual-top"><span>DESIGN FOR LEARNING</span><span>04 / 04</span></div>
+              <div class="learning-stack"><div class="stack-card card-back">ASSESS</div><div class="stack-card card-mid">DESIGN</div><div class="stack-card card-front">LEARN<span>↗</span></div></div>
+              <span class="visual-caption">MOODLE / BLENDED LEARNING</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">04 — Instructional design</p>
+              <h3>Blended learning<br>and Moodle design</h3>
+              <p>Designing structured online learning experiences that connect learning outcomes, learning activities, assessment and feedback.</p>
+              <div class="tag-list"><span>Moodle</span><span>Constructive alignment</span><span>H5P</span></div>
+              <details class="project-details"><summary>Read project overview <span>＋</span></summary><div><p><strong>Focus:</strong> moving beyond content uploads towards coherent learning journeys with purposeful activities and clear expectations.</p><p><strong>Context:</strong> design decisions account for bandwidth, device access and the practical realities of students and lecturers.</p></div></details>
+            </div>
+          </article>
+        </div>
+        <p class="section-footnote">Project descriptions are concise summaries. Detailed methods, artefacts and results can be added as each project is prepared for public release.</p>
+      </div>
+    </section>
 
-        </section>
+    <section class="content-section section-shell" id="research">
+      <div class="section-heading">
+        <p class="eyebrow">04 / Research</p>
+        <h2>Questions worth<br><em>investigating.</em></h2>
+      </div>
+      <div class="research-grid">
+        <div class="research-lead">
+          <p class="lead">My research interests sit at the intersection of digital capability, teaching practice, student experience and institutional decision-making.</p>
+          <p>I am interested in research that is methodologically sound and useful in context, especially in rural and resource-constrained higher education.</p>
+        </div>
+        <div class="research-list">
+          <article><span>01</span><div><h3>Digital competencies in higher education</h3><p>How lecturers and students understand, develop and apply digital competencies in their teaching and learning contexts.</p></div></article>
+          <article><span>02</span><div><h3>Learning analytics and student success</h3><p>How educational data can support responsible, interpretable and context-aware student support.</p></div></article>
+          <article><span>03</span><div><h3>Technology-enhanced and blended learning</h3><p>How instructional design and institutional conditions shape meaningful technology integration.</p></div></article>
+          <article><span>04</span><div><h3>AI in teaching and learning</h3><p>Practical, critical use of AI tools, including questions of accuracy, access, assessment and educator agency.</p></div></article>
+        </div>
+      </div>
+      <div class="research-callout"><span class="callout-mark">“</span><p>Research should do more than describe a problem. It should help us understand what can be changed, for whom, and under which conditions.</p></div>
+    </section>
 
-      </article>
+    <section class="experience-section" id="experience">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">05 / Experience & education</p>
+          <h2>A practice shaped<br>by <em>different rooms.</em></h2>
+        </div>
+        <div class="experience-grid">
+          <div>
+            <h3 class="column-title">Professional experience</h3>
+            <div class="timeline">
+              <article><span class="timeline-date">APR 2026 — PRESENT</span><h4>Instructional Designer</h4><p class="timeline-place">Walter Sisulu University · Faculty of Natural Sciences</p><p>Supporting the design and development of learning experiences in a faculty context, with attention to constructive alignment, blended learning and the practical use of the LMS.</p></article>
+              <article><span class="timeline-date">2019 — MAR 2026</span><h4>Educational Technologist</h4><p class="timeline-place">Walter Sisulu University</p><p>Supported the use of educational technology, Moodle and digital learning interventions for students and academic departments.</p></article>
+              <article><span class="timeline-date">SEP 2022 — MAR 2024</span><h4>Acting Instructional Designer</h4><p class="timeline-place">Walter Sisulu University</p><p>Undertook an acting instructional design role alongside work in educational technology.</p></article>
+              <article><span class="timeline-date">JUL — DEC 2023</span><h4>Part-time Lecturer</h4><p class="timeline-place">Walter Sisulu University</p><p>Taught Business Information Systems and End-user Computing.</p></article>
+              <article><span class="timeline-date">OCT 2014 — AUG 2019</span><h4>Educator</h4><p class="timeline-place">Kelebogile Primary School</p><p>Developed and delivered learning activities and supported learners with varied learning needs.</p></article>
+            </div>
+          </div>
+          <div>
+            <h3 class="column-title">Education</h3>
+            <div class="education-list">
+              <article><span class="education-year">2026 · IN PROGRESS</span><h4>Postgraduate Diploma in Data Analytics</h4><p>Emeris (formerly Varsity College)</p><small>Applied analytics, data science, statistical methods and programming.</small></article>
+              <article><span class="education-year">2024</span><h4>Master of Open Distance Learning</h4><p>University of South Africa</p><small>Research on lecturers’ perceptions of their digital competencies in a rural higher education institution.</small></article>
+              <article><span class="education-year">2020</span><h4>Postgraduate Diploma in Educational Technology</h4><p>University of Cape Town</p><small>Online learning design, emerging technologies, research and evaluation.</small></article>
+              <article><span class="education-year">2011</span><h4>BSc Computer Science and Electronics</h4><p>North-West University</p></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="capabilities-section section-shell" id="capabilities">
+      <div class="section-heading">
+        <p class="eyebrow">06 / Capabilities</p>
+        <h2>Tools are useful.<br><em>Judgement matters.</em></h2>
+      </div>
+      <div class="capability-grid">
+        <article><span>01</span><h3>Learning & instructional design</h3><p>Constructive alignment · Moodle · H5P · blended learning · digital learning resources</p></article>
+        <article><span>02</span><h3>Analytics & visualisation</h3><p>Power BI · Python · R · SQL · data preparation · dashboard design</p></article>
+        <article><span>03</span><h3>Research & evaluation</h3><p>Research design · quantitative analysis · qualitative inquiry · literature synthesis</p></article>
+        <article><span>04</span><h3>Emerging technology</h3><p>AI in education · machine learning · digital competency · technology integration</p></article>
+      </div>
+    </section>
 
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner">
+        <p class="eyebrow">07 / Contact</p>
+        <h2>Have a thoughtful<br>problem to <em>solve?</em></h2>
+        <div class="contact-bottom">
+          <p>I welcome conversations about research, higher education, learning design, analytics and meaningful uses of technology.</p>
+          <a class="button button-light" href="mailto:tmrabotapi@gmail.com">Email Tshepo <span>↗</span></a>
+        </div>
+        <div class="contact-links"><a href="mailto:tmrabotapi@gmail.com">tmrabotapi@gmail.com</a><a href="https://www.linkedin.com/in/tmrabotapi" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/Tsheporbt" target="_blank" rel="noopener">GitHub ↗</a><a href="https://x.com/tmrabotapi" target="_blank" rel="noopener">X ↗</a></div>
+      </div>
+    </section>
   </main>
 
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-<script>
-
-const dashboards = {
-
-engagement: `
-<h2>Student Engagement Analytics Dashboard</h2>
-<p>Designed to monitor behavioural engagement patterns.</p>
-
-<h4>Overview</h4>
-<img src="./assets/images/engagement_1.jfif" width="100%">
-
-<h4>Participation</h4>
-<img src="./assets/images/engagement_2.jfif" width="100%">
-
-<h4>Risk Indicators</h4>
-<img src="./assets/images/engagement_3.jfif" width="100%">
-
-<h4>Risk Indicators</h4>
-<img src="./assets/images/engagement_4.jfif" width="100%">
-`,
-
-teaching: `
-<h2>Teaching Evaluation Analytics</h2>
-<p>Analyses student feedback trends.</p>
-
-<h4>Overall Ratings</h4>
-<img src="./assets/images/teaching_1.jpg" width="100%">
-
-<h4>Dimension Analysis</h4>
-<img src="./assets/images/teaching_2.jpg" width="100%">
-
-<h4>Comparative View</h4>
-<img src="./assets/images/teaching_3.jpg" width="100%">
-
-<h4>Comparative View</h4>
-<img src="./assets/images/teaching_4.jpg" width="100%">
-
-<h4>Comparative View</h4>
-<img src="./assets/images/teaching_5.jpg" width="100%">
-
-
-`,
-
-orientation: `
-<h2>Orientation Attendance Dashboard</h2>
-<p>Tracks onboarding participation.</p>
-
-<h4>Attendance Overview</h4>
-<img src="./assets/images/orientation_1.jpg" width="100%">
-
-<h4>Programme Breakdown</h4>
-<img src="./assets/images/orientation_2.jpg" width="100%">
-
-<h4>Trend Analysis</h4>
-<img src="./assets/images/orientation_3.jpg" width="100%">
-
-<h4>Trend Analysis</h4>
-<img src="./assets/images/orientation_4.jpg" width="100%">
-
-<h4>Trend Analysis</h4>
-<img src="./assets/images/orientation_5.jpg" width="100%">
-
-<h4>Trend Analysis</h4>
-<img src="./assets/images/orientation_6.jpg" width="100%">
-`
-
-};
-
-document.querySelectorAll("[data-dashboard]").forEach(btn => {
-
-btn.addEventListener("click", () => {
-
-document.querySelectorAll("article").forEach(p => p.classList.remove("active"));
-
-document.querySelector('[data-page="dashboards"]').classList.add("active");
-
-document.getElementById("dashboard-content").innerHTML =
-dashboards[btn.dataset.dashboard];
-
-});
-
-});
-
-</script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <footer class="site-footer section-shell"><a class="wordmark" href="#top">TR<span>.</span></a><p>Built around practice, evidence and curiosity.</p><span>© <span id="year"></span> Tshepo Rabotapi</span></footer>
+  <script src="script.js"></script>
 </body>
-
-
 </html>
-
